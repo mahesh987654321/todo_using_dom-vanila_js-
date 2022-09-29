@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="logo">
+        <img src="img/bulboff.gif" alt="Learn with sumit" />
+      </div>
+      <h1>To Do Apps</h1>
+      <form class="new-task-container box">
+        <div class="inner">
+          <label for="new-task">Add new task</label>
+          <input type="text" id="new-task" />
+          <button class="addTask">Add Task</button>
+        </div>
+      </form>
+      <div class="grid_item">
+        <div class="todo-list box">
+          <h2>Incomplete Tasks</h2>
+          <ul id="items">
+            <li class="item">
+              <input type="checkbox" />
+              <label>Task Name</label>
+              <button class="update">Update</button>
+            </li>
+            <li class="item">
+              <input type="checkbox" />
+              <label>Task Name</label>
+              <button class="update">Update</button>
+            </li>
+            <li class="item">
+              <input type="checkbox" />
+              <label>Task Name</label>
+              <button class="update">Update</button>
+            </li>
+          </ul>
+        </div>
+        <div class="complete-list box">
+          <h2>Complete task</h2>
+          <ul>
+            <li class="item">
+              Task Name<button class="delete">Delete</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
